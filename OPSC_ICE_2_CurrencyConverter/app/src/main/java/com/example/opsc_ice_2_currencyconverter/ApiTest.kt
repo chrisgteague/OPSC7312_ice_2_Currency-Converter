@@ -7,14 +7,14 @@ import android.util.Log
 import android.view.View
 import android.widget.*
 import android.widget.AdapterView.OnItemSelectedListener
-import androidx.core.widget.doOnTextChanged
+
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
-import org.w3c.dom.Text
+
 import java.lang.Exception
 import java.net.URL
 class ApiTest : AppCompatActivity() {

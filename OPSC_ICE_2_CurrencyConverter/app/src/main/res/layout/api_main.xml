@@ -7,13 +7,7 @@
     tools:context=".ApiTest"
     android:background="#E8E8E8">
 
-    <androidx.cardview.widget.CardView
-        android:layout_centerInParent="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        app:cardCornerRadius="10dp"
-        >
+
 
     <LinearLayout
         android:id="@+id/ll_parent"
@@ -70,6 +64,6 @@
 
     </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+
 
 </RelativeLayout>
